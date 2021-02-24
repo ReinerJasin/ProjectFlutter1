@@ -25,7 +25,7 @@ class _Main4State extends State<Main4> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(number.toString()),
+              Text(number.toString(), style: TextStyle(fontSize: 10 + number.toDouble()),),
               ElevatedButton(
                 child: Text("Tambah Bilangan"),
                 onPressed: tekanTombol,
