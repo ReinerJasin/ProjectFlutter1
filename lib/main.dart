@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/main7.dart';
+import 'package:flutter_app/main13.dart';
 // import 'package:flutter_app/home.dart';
 
 void main() {
@@ -41,8 +41,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       
-      //untuk play main7
-      home: Main7(),
+      //untuk play main
+      home: Main13(),
     );
   }
 }
